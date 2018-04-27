@@ -1,0 +1,11 @@
+{
+  "name": "dokku-basic",
+  "version": "1.0.0",
+  "description": "Basic test application to deploy on dokku",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Ben King",
+  "license": "ISC"
+}
