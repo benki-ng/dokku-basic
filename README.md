@@ -8,3 +8,7 @@ To deploy this to your dokku server do the following:
 1. git clone https://github.com/benking32/dokku-basic.git
 2. git remote add dokku dokku@<___insert-your-dokku-url-here___>:dokku-basic
 3. git push dokku master
+
+
+
+If you then need to delete this application, ssh into your dokku server and run: dokku delete dokku-basic
