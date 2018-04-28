@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  response.end('Hello Node.js Server!')
+  response.end('Dokku-basic is running!')
 }
 
 const server = http.createServer(requestHandler)
